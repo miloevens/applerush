@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Apple Fan Hub</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Figtree:wght@400;600&display=swap">
+<style>
+:root{--bg:#04252a;--bg2:#073b42;--dark:#008b8b;--cy:#2be8f5;--ink:#e8fcfd;--mute:#8fc4c9;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(circle at 80% -10%,#0b5a63 0,var(--bg) 55%);color:var(--ink);font:400 17px/1.5 Figtree,system-ui,sans-serif;padding:max(24px,env(safe-area-inset-top)) 20px 40px}
+main{max-width:980px;margin:0 auto}
+h1{font:800 clamp(48px,11vw,112px)/.9 "Bricolage Grotesque",Impact,sans-serif;letter-spacing:-.035em;margin:30px 0 14px}
+p{color:var(--mute);max-width:52ch;margin:0 0 26px}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+a.c{display:flex;flex-direction:column;gap:8px;text-decoration:none;color:inherit;background:var(--bg2);border:2px solid var(--dark);border-radius:30px 4px 30px 4px;padding:22px;min-height:200px;transition:transform .15s,background .15s}
+a.c:hover,a.c:focus-visible{transform:translateY(-6px) rotate(-.6deg);background:var(--dark);outline:none}
+a.c i{font:800 52px/1 "Bricolage Grotesque";font-style:normal;color:var(--cy)}
+a.c:hover i{color:#012}
+a.c b{font:800 28px "Bricolage Grotesque"}
+a.c span{color:var(--mute);font-size:.95rem}a.c:hover span{color:#dff}
+footer{margin-top:40px;color:var(--mute);font-size:.88rem}
+</style>
+</head>
+<body>
+<main>
+<h1>Apple Fan Hub</h1>
+<p>Games en redenen waarom Apple wint. Kies waar je mee wilt beginnen.</p>
+<div class="g">
+<a class="c" href="game.html"><i>&#9650;</i><b>Apple Rush 3D</b><span>3D-game met Endless, Levels en Race tegen AI-bots. Koop skins met appels.</span></a>
+<a class="c" href="glaze-empire.html"><i>&infin;</i><b>Glaze Empire</b><span>Een idle-game vol glazers, upgrades en prestaties.</span></a>
+<a class="c" href="fansite.html"><i>&#9873;</i><b>Waarom Apple wint</b><span>Redenen, kleine games en de pagina van de Ultimate Apple Glazers.</span></a>
+</div>
+<footer>Fan-site, niet gemaakt door Apple. Apple is een merk van Apple Inc.</footer>
+</main>
+</body>
+</html>
